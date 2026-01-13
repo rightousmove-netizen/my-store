@@ -27,3 +27,15 @@ EOF
 git add .
 git commit -m "Initial site: production-ready TikTok Store with Tailwind build and GitHub Pages deployment"
 git push origin main
+{
+  "name": "tiktok-store",
+  "version": "1.0.0",
+  "description": "TikTok Store — Wireless Earbuds Pro",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "build": "tailwindcss -i ./src/style.css -o ./dist/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
