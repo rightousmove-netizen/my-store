@@ -1,4 +1,5 @@
-# my-storegit clone https://github.com/rightousmove-netizen/my-store.git
+# my-store
+git clone https://github.com/rightousmove-netizen/my-store.git
 cd my-store
 
 # Create all the files: 
